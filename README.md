@@ -1,4 +1,4 @@
-# markdown-prevewer
+# markdown-previewer
 A responsive markdown previewer that's easy to read, write, and edit.
 
 ## How to Start
