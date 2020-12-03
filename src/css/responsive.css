@@ -1,0 +1,60 @@
+/*responsive portrait mode*/
+@media screen
+and ( min-width: 768px )
+and ( max-width: 1024px )
+and ( orientation: portrait ) {
+  .text-box {
+    margin-top: 25px;
+  }
+
+  .preview-box {
+    margin-left: 0;
+  }
+}
+
+@media screen
+and ( min-width: 541px )
+and ( max-width: 768px )
+and ( orientation: portrait ) {
+  .text-box {
+    margin-top: 0;
+  }
+
+  .preview-box {
+    width: 600px;
+  }
+}
+
+@media screen
+and ( min-width: 281px )
+and ( max-width: 540px )
+and ( orientation: portrait ) {
+  .text-box {
+    margin-top: 0;
+  }
+
+  .preview-box {
+    margin-left: 0;
+  }
+}
+
+@media screen
+and ( max-width: 280px )
+and ( orientation: portrait ) {
+  .preview-box {
+    margin-left: 0;
+  }
+}
+
+/*responsive landscape mode*/
+@media screen
+and ( max-width: 1024px )
+and ( orientation: landscape ) {
+  .text-box {
+    margin-top: 25px;
+  }
+
+  .preview-box {
+    margin-left: 0;
+  }
+}
