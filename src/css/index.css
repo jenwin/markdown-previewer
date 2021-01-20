@@ -78,5 +78,6 @@ body {
   border-bottom-right-radius: 10px;
   height: 600px;
   overflow-y: scroll;
+  padding: 0 1rem;
   text-align: left;
 }
